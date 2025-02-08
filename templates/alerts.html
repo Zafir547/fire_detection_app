@@ -1,0 +1,6 @@
+<h2>Alert Management</h2>
+<ul>
+    {% for entry in activities %}
+      <li>{{ entry.time }}: {{ entry.activity }}</li>
+    {% endfor %}
+</ul>
